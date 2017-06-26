@@ -1,0 +1,26 @@
+{	
+	"name": "iconic-publishing/slim3-basic-recaptcha-skeleton",
+    "description": "This is a skeleton template for Slim 3, Twig, Bootstrap and Google ReCaptcha.",
+    "keywords": ["framework", "slim 3", "google recaptha", "iconic publishing", "twig"],
+    "license": "MIT",
+	"type": "project",
+    "require": {
+		"twbs/bootstrap": "^3.3",
+		"symfony/var-dumper": "^3.2",
+		"hassankhan/config": "^0.10.0",
+        "slim/slim": "^3.7",
+        "slim/twig-view": "^2.1",
+		"slim/flash": "^0.2.0",
+        "slim/csrf": "^0.8.1",
+        "respect/validation": "^1.1",
+		"mailgun/mailgun-php": "^2.1",
+        "php-http/guzzle6-adapter": "^1.1",
+		"phpmailer/phpmailer": "^5.2",
+		"google/recaptcha": "^1.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Base\\": "app"
+        }
+    }
+}
